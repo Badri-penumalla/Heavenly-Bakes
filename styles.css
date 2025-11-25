@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* !Home Page Styling */
+#home_page{
+    background-color: rgb(255, 235, 205);
+}
+nav{
+    height: 15vh;
+    display: flex;
+    padding: 0px 130px;
+    color: chocolate;
+}
+#nav_left{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav_left>a{
+    text-decoration: none;
+    color: chocolate;
+}
