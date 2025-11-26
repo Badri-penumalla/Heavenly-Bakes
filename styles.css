@@ -4,15 +4,16 @@
 }
 /* !Home Page Styling */
 #home_page{
-    background-color: rgb(255, 235, 205);
+    background-color: rgb(238, 185, 106);
 }
 nav{
     height: 15vh;
     display: flex;
     padding: 0px 130px;
-    color: chocolate;
+    color: beige;
 }
 #nav_left{
+    /* border: 1px solid chocolate; */
     flex-basis: 25%;
     display: flex;
     justify-content: center;
@@ -20,5 +21,54 @@ nav{
 }
 #nav_left>a{
     text-decoration: none;
-    color: chocolate;
+    color: beige;
+}
+#nav_middle{
+    /* border: 1px solid chocolate; */
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: beige;
+}
+#nav_middle>a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    font-size: 24px;
+}
+#nav_right{
+    /* border: 1px solid chocolate; */
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#nav_right>i{
+    font-size: 23px;
+    cursor: pointer;
+    /* background-color: rgb(255, 235, 205); */
+    color: brown;
+}
+#cart_quantity{
+    height: 22px;
+    width: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid chocolate;
+    border-radius: 50%;
+    position: relative;
+    top: -11px;
+    right: 27px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: black;
+}
+#cart_price{
+    font-size: 19px;
+    font-weight: bold;
+    color: beige;
 }
