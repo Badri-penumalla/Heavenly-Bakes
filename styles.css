@@ -350,3 +350,132 @@ form>button{
     height: 330px;
     width: 330px;
 }
+
+/* !Menu Page Styles */
+#menu_filter{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu_btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#menu_btns>button{
+    color: black;
+    background-color: whitesmoke;
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 15px;
+}
+#menu_items{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    height: 240px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 5px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.card_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    /* margin-left: 40px; */
+}
+.card_img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 25px;
+  background-position: left;
+  /* border: 2px solid red; */
+  
+}
+.card_img>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* border: 1px solid black; */
+}
+.card_info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+.card_info>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.card_info>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+}
+.card_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.card_quantity{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.minus, .plus{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+    gap: 30px;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.addToCart>button{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 7px 20px;
+    margin-right: 5px;
+}
