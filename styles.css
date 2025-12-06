@@ -14,7 +14,6 @@ nav{
     padding: 0px 130px;
     color: white;
     background-color: rgb(238, 185, 106);
-    margin-bottom: 20px;
 }
 #nav_left{
     /* border: 1px solid chocolate; */
@@ -80,7 +79,7 @@ header{
     height: 65vh;
     background: url("./assets/hero_background.png") center;
     background-size: cover;
-    margin: 15px 40px;
+    margin: 20px 40px;
     border-radius: 15px;
 }
 #bakery_desc{
@@ -134,7 +133,7 @@ header{
     font-size: 19px;
     margin-top: 10px;
 }
-footer{
+#bakery_details{
     height: 35vh;
     display: flex;
     flex-direction: column;
@@ -143,21 +142,21 @@ footer{
     background-color: rgba(238, 185, 106, 0.871);
     
 }
-footer>h2{
+#bakery_details>h2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-footer>:nth-child(2){
+#bakery_details>:nth-child(2){
     font-size: 20px;
 }
-footer>a>button{
+#bakery_details>a>button{
     padding: 10px 15px;
     border: rgb(238, 185, 106);
     border-radius: 10px;
     background-color: rgba(220, 215, 215, 0.853);
     cursor: pointer;
 }
-footer>:last-child{
+#bakery_details>:last-child{
     height: 30px;
     width: 100%;
     padding: 20px;
@@ -270,4 +269,213 @@ footer>:last-child{
     border-radius: 5%;
     height: 280px;
     width: 500px;
+}
+#copyright{
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(238, 185, 106, 0.871);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px groove black;
+}
+
+/* !Contact Page Styles */
+#contact_page{
+    background-color: white;
+    height: 77vh;
+    display: flex;
+}
+#contact_one{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+#contact_one>h1, #contact_two>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+form>input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+form>textarea{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+form>button{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+#contact_two{
+    /* display: flex; */
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+}
+#contact_two div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: -20px;
+}
+#contact_two>div>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+#contact_two>img{
+    height: 330px;
+    width: 330px;
+}
+
+/* !Menu Page Styles */
+#menu_filter{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu_btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#menu_btns>button{
+    color: black;
+    background-color: whitesmoke;
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 15px;
+}
+#menu_items{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    height: 240px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 5px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.card_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    /* margin-left: 40px; */
+}
+.card_img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 25px;
+  background-position: left;
+  /* border: 2px solid red; */
+  
+}
+.card_img>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* border: 1px solid black; */
+}
+.card_info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+.card_info>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.card_info>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+}
+.card_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.card_quantity{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.minus, .plus{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
+    gap: 30px;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.addToCart>button{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 7px 20px;
+    margin-right: 5px;
 }
