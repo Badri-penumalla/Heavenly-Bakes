@@ -20,20 +20,30 @@
                 <a href="Contact.html">Contact</a>
             </aside>
             <aside id="nav_right">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping" id="cart_icon"></i>
                 <div id="cart_quantity">0</div>
                 <p id="cart_price">₹0.00</p>
             </aside>
         </nav>
         
+        <aside id="sidebar">
+            <section id="sidebar_one">
+                <h1>Cart</h1>
+                <p id="close_sidebar">X</p>
+            </section>
+            <hr/>
+            <section id="sidebar_items"></section>
+            <button id="buyBtn">Buy Now</button>
+        </aside>
+
         <section id="menu_filter">
             <h1>Our Menu</h1>
             <div id="menu_btns">
-                <button>All</button>
-                <button>Breads</button>
-                <button>Cakes</button>
-                <button>Croissants</button>
-                <button>Fruit Tarts</button>
+                <button class="active" onclick="filterItems('all')">All</button>
+                <button onclick="filterItems('bread')">Breads</button>
+                <button onclick="filterItems('cake')">Cakes</button>
+                <button onclick="filterItems('croissant')">Croissants</button>
+                <button onclick="filterItems('fruitTart')">Fruit Tarts</button>
             </div>
         </section>
         
@@ -324,10 +334,7 @@
                 </article>
             </div>
         </section>
-
-        <footer id="copyright">
-            <p>&copy; 2024 Heavenly Bakes. All rights reserved.</p>
-        </footer>
     </main>
+    <script src="./Menu.js"></script>
 </body>
 </html>
