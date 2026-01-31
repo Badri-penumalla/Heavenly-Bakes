@@ -40,6 +40,7 @@ nav{
     color: #fff;
     font-weight: bold;
     font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #nav_right{
     /* border: 1px solid chocolate; */
@@ -48,6 +49,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #nav_right>i{
     font-size: 23px;
@@ -83,7 +85,7 @@ header{
     border-radius: 15px;
 }
 #bakery_desc{
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -94,8 +96,13 @@ header{
     /* border: solid 1px chocolate; */
 }
 #bakery_desc>h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
+}
+#bakery_desc>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 #bakery_desc>a>button{
     padding: 13px 20px;
@@ -105,9 +112,10 @@ header{
     color: white;
     background-color: orange;
     cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #specials{
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -117,7 +125,7 @@ header{
 }
 #specials>h2{
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
 }
 #specials_container{
@@ -128,23 +136,30 @@ header{
     height: 200px;
     width: 200px;
 }
+.items>img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
 .items>p{
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 19px;
     margin-top: 10px;
 }
 #bakery_details {
-  height: 35vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 #bakery_details > h2 {
-  font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
 }
 #bakery_details > p {
-  font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
 }
 #bakery_details > a > button {
     padding: 13px 20px;
@@ -154,6 +169,7 @@ header{
     color: white;
     background-color: orange;
     cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* !About Page Styling */
@@ -282,8 +298,9 @@ header{
     padding-top: 30px;
 }
 #contact_one>h1, #contact_two>h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 45px;
+    margin-top: 15px;
 }
 form{
     display: flex;
@@ -302,7 +319,7 @@ form>input{
 form>textarea{
     width: 100%;
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
 }
 form>button{
     height: 50px;
@@ -311,6 +328,7 @@ form>button{
     color: white;
     border: 1px solid orange;
     border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #contact_two{
     /* display: flex; */
@@ -331,6 +349,7 @@ form>button{
 #contact_two>div>p{
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #contact_two>img{
     height: 330px;
@@ -345,6 +364,11 @@ form>button{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
+}
+#menu_filter>h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
 }
 #menu_btns{
     width: 100%;
@@ -361,6 +385,7 @@ form>button{
     border: 1px solid grey;
     font-weight: 700;
     font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #menu_btns>.active{
   color: white;
@@ -421,12 +446,12 @@ form>button{
     padding-left: 15px;
 }
 .card_info>h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
 }
 .card_info>p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     text-align: center;
 }
@@ -440,8 +465,8 @@ form>button{
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
-    margin-left: 20px;
-    margin-right: 40px;
+    padding-right: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .minus, .plus{
     height: 30px;
@@ -468,6 +493,7 @@ form>button{
     gap: 15px;
     padding: 7px 20px;
     margin-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #sidebar {
